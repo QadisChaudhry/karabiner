@@ -80,7 +80,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "right_arrow"
+                                        "key_code": "left_arrow"
                                     }
                                 ],
                                 "type": "basic"
@@ -228,7 +228,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "comma"
+                                    "key_code": "w"
                                 },
                                 "to": [
                                     {
@@ -249,7 +249,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "n"
+                                    "key_code": "t"
                                 },
                                 "to": [
                                     {
