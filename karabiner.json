@@ -217,7 +217,7 @@
                         ]
                     },
                     {
-                        "description": "Forward and Back One Word",
+                        "description": "Forward and Back",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -228,7 +228,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "w"
+                                    "key_code": ","
                                 },
                                 "to": [
                                     {
@@ -249,13 +249,55 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "t"
+                                    "key_code": "m"
                                 },
                                 "to": [
                                     {
                                         "key_code": "left_arrow",
                                         "modifiers": [
                                             "left_option"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "n"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "left_arrow",
+                                        "modifiers": [
+                                            "left_command"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "."
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "right_arrow",
+                                        "modifiers": [
+                                            "left_command"
                                         ]
                                     }
                                 ],
