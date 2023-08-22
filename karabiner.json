@@ -457,17 +457,17 @@
                             {
                                 "conditions": [
                                     {
-                                        "type": "device_if",
                                         "identifiers": [
                                             {
-                                                "vendor_id": 5426,
-                                                "product_id": 180
+                                                "product_id": 180,
+                                                "vendor_id": 5426
                                             }
-                                        ]
+                                        ],
+                                        "type": "device_if"
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "escape"
+                                    "key_code": "delete_forward"
                                 },
                                 "to": [
                                     {
@@ -482,17 +482,17 @@
                             {
                                 "conditions": [
                                     {
-                                        "type": "device_if",
                                         "identifiers": [
                                             {
-                                                "vendor_id": 5426,
-                                                "product_id": 180
+                                                "product_id": 180,
+                                                "vendor_id": 5426
                                             }
-                                        ]
+                                        ],
+                                        "type": "device_if"
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "return_or_enter"
+                                    "key_code": "tab"
                                 },
                                 "to": [
                                     {
@@ -507,17 +507,17 @@
                             {
                                 "conditions": [
                                     {
-                                        "type": "device_if",
                                         "identifiers": [
                                             {
-                                                "vendor_id": 5426,
-                                                "product_id": 180
+                                                "product_id": 180,
+                                                "vendor_id": 5426
                                             }
-                                        ]
+                                        ],
+                                        "type": "device_if"
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "spacebar"
+                                    "key_code": "delete_or_backspace"
                                 },
                                 "to": [
                                     {
@@ -528,7 +528,7 @@
                                     }
                                 ],
                                 "type": "basic"
-                            },
+                            }
                         ]
                     }
                 ]
@@ -848,7 +848,28 @@
                     },
                     "ignore": false,
                     "manipulate_caps_lock_led": true,
-                    "simple_modifications": [],
+                    "simple_modifications": [
+                        {
+                            "from": {
+                                "key_code": "left_control"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "left_command"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "right_option"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "left_command"
+                                }
+                            ]
+                        }
+                    ],
                     "treat_as_built_in_keyboard": false
                 },
                 {
