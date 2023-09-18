@@ -528,6 +528,66 @@
                                     }
                                 ],
                                 "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "identifiers": [
+                                            {
+                                                "product_id": 180,
+                                                "vendor_id": 5426
+                                            }
+                                        ],
+                                        "type": "device_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "left_arrow",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "open_bracket",
+                                        "modifiers": [
+                                            "left_command"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "identifiers": [
+                                            {
+                                                "product_id": 180,
+                                                "vendor_id": 5426
+                                            }
+                                        ],
+                                        "type": "device_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "right_arrow",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "close_bracket",
+                                        "modifiers": [
+                                            "left_command"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
                             }
                         ]
                     },
