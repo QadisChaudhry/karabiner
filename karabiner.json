@@ -471,7 +471,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "up_arrow",
+                                        "key_code": "left_arrow",
                                         "modifiers": [
                                             "control"
                                         ]
@@ -496,7 +496,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "left_arrow",
+                                        "key_code": "right_arrow",
                                         "modifiers": [
                                             "control"
                                         ]
@@ -521,7 +521,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "right_arrow",
+                                        "key_code": "up_arrow",
                                         "modifiers": [
                                             "control"
                                         ]
